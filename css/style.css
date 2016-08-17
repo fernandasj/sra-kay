@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+    width: 90%;
+    background: rgba(255, 255, 255, 0.80);
+    padding: 20px;
+    margin-left: 5%;
+}
+
+body{
+  background: url('../img/ball.jpg') fixed;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h3{
+  font-family: Ubuntu;
+  font-size: 35px;
+  color: #880E4F;
+  margin-left: 3%;
+}
+
+header, footer{
+  width: 100%;
+  background: #9C27B0;
+  color: #fff;
+}
+
+header h1{
+  font-size: 70px;
+  font-family: Lobster;
+  margin-left: 3%;
+}
+
+header{
+  background: #9C27B0;
+  background-size: 10% 50%;
+  padding: 25px 0;
+}
+
+nav{
+  width: 100%;
+  background: #CE93D8;
+  padding: 5px;
+}
+
+section{
+  width: 68%;
+  float: left;
+  border-right: 2px solid #1C618C;
+  border-left: 2px solid #1C618C;
+}
+
+.imagem{
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.conteudo{
+  width: calc(100% - 100px);
+  float: right;
+}
+
+article{
+  border-bottom: 1px dashed #1C618C;
+  padding: 5px;
+  margin: 5px;
+  color: #880E4F;
+}
+
+aside{
+  width: calc(30% - 20px);
+  float: right;
+  padding: 10px;
+}
+
+.imagem-aside{
+  width: 100%;
+  height: 300px;
+}
+
+footer{
+  clear: both;
+  padding: 10px;
+  text-align: center;
+}
+
+p{
+  font-family: Ubuntu;
+  color: #880E4F;
+}
+
+td{
+  font-family: Ubuntu;
+  padding-left: 30px;
+  padding-right: 10px;
+  color: #fff;
+}
+
+#text {
+  font-family: Ubuntu;
+  font-size: 18px;
+  text-align: justify;
+  padding: 10px;
+}
+
+.postImg{
+  position: relative;
+  margin-left: 30%;
+  margin-top: 30px;
+  width: 500px;
+  height: 400px;
+}
+
+.author{
+  float: right;
+  font-family: Ubuntu;
+}
+
+button{
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #CE93D8;
+    font-family: Ubuntu;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input, textarea {
+    border-radius: 20px;
+    padding-left:10px;
+    padding:5px;
+    margin-top:10px;
+}
+
+label, h4{
+    display: inline-block;
+    padding-left: 1%;
+    padding: 0.5px 20px;
+    line-height: 100%;
+    font-family: Ubuntu;
+    font-weight: bold;
+    color: #880E4F;
+}
+nav a{
+  text-decoration: none;
+  color: #fff;
+}
+
+a{
+  color: #880E4F;
+}
+
+footer p{
+  color: #fff;
+}
+
+.play{
+  margin-left: 10%;
+  margin-top: 10px;
+  width: 300px;
+  height: 200px;
+}
